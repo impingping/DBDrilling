@@ -33,7 +33,7 @@ SELECT col_1, col_2
 **Q:** Assumed the login information is stored in the DB, will it be important for the DB to supple lots of connection at the same time?  
 **A:** This question should be understood from a different angle.  
 **Q:** Does login information go through these processes: front-end application forwards the username/password to backend application through a HTTP request, load balancer will dispatch this request to one of back-end servers.  The selected backend server will communicate with one of the databases.  
-**A:**: It all depends on how system gets set up. The concurrent access to multiple replicated DBs can be handled by the load balancer. 
+**A:** It all depends on how system gets set up. The concurrent access to multiple replicated DBs can be handled by the load balancer. 
 
 **Q:** What type of engine exist in MySQL? What is the difference?  
 **A:** InnoDB, MyISAM, Memory, CSV, etc. 
