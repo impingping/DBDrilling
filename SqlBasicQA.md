@@ -1,7 +1,7 @@
 **Q:** Name a few common DB joins, and their differences.  
-**A:** A join is a SQL instruction to combine data from two sets of data.  There are inner join, left join, right join, and full joins. 
+**A:** A join is a SQL instruction to combine data from two sets of data.  There are inner join, left join, right join, and full join. 
 Inner join returns records at the intersection of the two tables. 
-Left join can be used to append information from one table  to another table. 
+Left join can be used to append information from one table to another table. 
 Right join is a mirror version of left join. 
 Full join is for a list of all records from both tables. 
 
